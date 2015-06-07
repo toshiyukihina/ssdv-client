@@ -1,5 +1,5 @@
 # Directive used to set metisMenu and minimalize button
-angular.module('inspinia')
+angular.module('ssdv')
 
   .directive 'sideNavigation', ($timeout) ->
     restrict: 'A'

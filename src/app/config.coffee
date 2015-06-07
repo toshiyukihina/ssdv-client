@@ -1,5 +1,5 @@
 angular
-  .module 'inspinia'
+  .module 'ssdv'
   .config ($stateProvider, $urlRouterProvider) ->
     $stateProvider
       .state 'index',

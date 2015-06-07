@@ -1,5 +1,5 @@
 angular
-  .module 'inspinia', [
+  .module 'ssdv', [
     'ngAnimate'
     'ngCookies'
     'ngTouch'

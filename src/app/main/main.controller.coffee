@@ -1,4 +1,4 @@
-angular.module('inspinia')
+angular.module('ssdv')
   .controller 'MainCtrl', ($scope) ->
     @userName = 'Example user'
     @helloText = 'Welcome in INSPINIA Gulp SeedProject'
