@@ -1,30 +1,33 @@
 AngualarJS boilerplate with Gulp
 ===
 
+## PreCondition
+
+```
+$ npm install -g bower
+```
+
 ## Install
 
 ```
 $ npm install && bower install
 ```
 
-## Gulp Tasks
-
-`gulp` is installed as local package. You can run gulp tasks via 'npm' command.
-
-### Run
+## Run
 
 ```
-$ npm run gulp serve
+$ gulp serve
 ```
 
-### Package
+## Build
 
 ```
-$ npm run gulp package
+$ gulp build
 ```
 
-### Clean
+## Package
 
 ```
-$ npm run gulp clean
+$ gulp archive
 ```
+

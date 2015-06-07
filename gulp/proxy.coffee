@@ -15,14 +15,10 @@ chalk = require('chalk')
 # Location of your backend server
 proxyTarget = 'http://server/context/'
 
-proxy = httpProxy.createProxyServer(
-  target: proxyTarget
-)
+proxy = httpProxy.createProxyServer target: proxyTarget
 
 proxy.on 'error', (error, req, res) ->
-  res.writeHead(500,
-    'Content-Type': 'text/plain'
-  )
+  res.writeHead 500, 'Content-Type': 'text/plain'
   console.error(chalk.red('[Proxy]'), error)
 
 ###
